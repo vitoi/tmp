@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "1c1a03b8-820d-438d-ac5a-9455eaf524dc",
+		"name": "Test_Mock",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/test",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"test"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "test",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/test",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"test"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [],
+					"cookie": [],
+					"body": "{\"status\":\"ok\"}"
+				}
+			]
+		},
+		{
+			"name": "tp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/tp",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"tp"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "tp",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/tp",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"tp"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": null,
+					"header": [],
+					"cookie": [],
+					"body": "bad responses"
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}
